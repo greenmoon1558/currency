@@ -1,0 +1,83 @@
+.cards__container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    min-width: 308px;
+    width: 308px;
+    height: 354px;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    padding: 23px 30px;
+    margin: 30px;
+    clear: both;
+}
+.card.green .timeperiod__text{
+    color: #68786c;
+}
+.card.brown .timeperiod__text{
+    color: #716059;
+}
+.card.grey .timeperiod__text{
+    color: #6b6b6b;
+}
+.card__header{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 12px 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+}
+.card__image{
+    margin: 12px auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.timeperiod__text{
+    color:#6b6b6b;
+    font-size: 14px;
+}
+.price_item_decrease{
+    color:#c80e24;
+    font-size: 16px;
+}
+.price_item_increase{
+    font-size: 16px;
+    color:#70c446;
+}
+.total__price__title{
+    font-size: 20px;
+}
+.total__price__title__value{
+    font-size: 22px;
+}
+.percent__change__title{
+    font-size: 14px;
+}
+.price__item{
+    margin: 5px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.total__price__paragraph{
+    margin: 12px 0 10px;
+}
+.total__price__paragraph,
+.price__item,
+.percent__change__paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1044px){
+    .cards__container{
+        flex-direction: column;
+    }
+}
+
+

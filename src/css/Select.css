@@ -1,0 +1,54 @@
+form.select__form { 
+    display: inline-block;
+    width: 50%;
+    text-align: end;
+}
+.select__form .select{
+    width: 300px;
+    height: 50px;
+    font-size: 14px;
+    background-color: #1f272f;
+    color: #e9e9ea;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #92e8fe;
+    font-weight: 300;
+    padding: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 5px;
+}
+.select__form::after {
+    content: '\203A';
+    display: inline-block;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    pointer-events: none;
+    position: relative;
+    left: -20px;
+    top: 0px;
+    font-size: 20px;
+    color: #92e8fe;
+    pointer-events: none;
+  }
+
+.select__form .option{
+    border-radius: 10px;
+    height: 25px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+*:active, *:hover, *:focus, *::after, *::before {
+    outline: 0;
+    outline-offset: 0;
+  }

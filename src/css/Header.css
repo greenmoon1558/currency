@@ -1,0 +1,15 @@
+.header__title{
+    font-size: 32px;
+    border: 1px solid #304452;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    flex-direction: column;
+    color:#fff;
+    max-width: 1044px;
+    text-align: end;
+    margin: 65px auto 30px;
+    border-radius: 8px;
+    background-color: #20282f61;
+}
+.header__title__text{
+}
