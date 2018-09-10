@@ -2,9 +2,9 @@
 
 Simple layout 
 
-[web browser app](https://immense-temple-79101.herokuapp.com/)
+[web browser app](https://morning-bayou-16347.herokuapp.com/)
 
-![Main.png](https://raw.githubusercontent.com/greenmoon1558/currency/master/src/images/challange.png)
+![Main.png](https://raw.githubusercontent.com/greenmoon1558/currency/master/src/images/challange.jpg)
 
 ## Running
 Run `npm start`
